@@ -1,7 +1,11 @@
 # README.md
 
 ## Git Hub
-- git status：状態を確認
-- git add .：すべての変更をステージング
-- git commit -m "変更内容のメモ"
-- git push -u origin main：GitHub にアップ！
+
+- GitHubへプッシュする場合
+    - コマンド：`./push.sh "コミットメッセージ"`
+    - add, commit, push を順次実行するスクリプト
+
+- GitHubからpullしたい場合
+    - コマンド：`git pull`
+
